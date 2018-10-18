@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Open+Sans');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  background-color: #fafafa;
+  margin: 0;
+  font-size: 16px
+}
+
+img {
+  width: 90%;
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #74E2F3;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 30px;
+}
+
+.main-nav li {
+    text-align: center;
+  	background: #fff;
+  	margin: 6px 6px;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+.main-content-conatiner {
+   padding-top: 50px;
+   padding-bottom: 40px;
+ }
+
+.intro-img {
+  width: 75%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.title-text {
+ text-transform: uppercase;
+ font-weight: bold;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
+ color: black;
+ letter-spacing: -1px;
+}
+
+.main-nav {
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-content-conatiner {
+  background-color: #fff;
+}
+
+.intro-paragraph {
+  padding-bottom: 40px;
+}
+
+.portfolio-content {
+  padding: 10px 0px;
+}
+
+.skills {
+  padding-top: 50px;
+}
+
+.contact-information {
+  padding: 50px 0px;
+  border-top: .5px solid grey;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-footer {
+  border-top: .5px solid grey;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+
+}
+
+.intro,
+.section-text {
+  color: grey;
+}
+.name-nav {
+  float: left;
+  margin: 5px 0 0 10px;
+}
+
+.small-nav {
+  float: right;
+  text-decoration: none;
+  margin: 30px 10px 0 0
+}
+
+.larger-footer-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-nav li {
+    display: inline-block;
+    background-color: #fafafa;
+    margin-bottom: 25px;
+  }
+
+  .intro-img {
+    float: right;
+    width: 45%;
+    padding: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .portfolio-content {
+    float: left;
+    width: 50%;
+  }
+
+  .small-nav {
+    display: none;
+  }
+
+  .larger-footer-nav {
+    display: initial;
+    float: right;
+    text-decoration: none;
+    margin: 30px 10px 0 0;
+  }
+
+}
+
+@media (min-width: 1024px) {
+    .main-header-title {
+      float: left;
+      width: 60%;
+      text-align: left;
+      padding-left: 40px;
+    }
+
+   .main-nav {
+     text-align: right;
+     padding-top: 25px;
+   }
+
+   .main-header {
+      margin-bottom: 0;
+   }
+
+  .main-nav li {
+    margin-bottom: 0;
+  }
+
+  .portfolio-content {
+    float: left;
+    width: 32%;
+    margin-left: 12px;
+  }
+
+}
